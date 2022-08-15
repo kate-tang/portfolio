@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+  @apply flex md:flex-row flex-col md:gap-14 gap-10 py-28;
+}
+.section-title {
+  @apply md:flex-[0_0_120px] flex-[0_1_auto] md:text-right text-left text-blue font-bold uppercase tracking-widest;
+}
+.section-content {
+  @apply md:flex-[1_0] flex-[0_1_auto] md:pl-0 pl-12;
+}
+.skill-icon {
+  @apply xl:w-20 xl:h-20 lg:w-16 lg:h-16 md:w-14 md:h-14 w-12 h-12 hover:scale-105 transition-all duration-300;
+}
