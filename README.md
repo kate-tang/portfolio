@@ -1,4 +1,5 @@
 # Portfolio
+[Personal website](https://kate-tang.github.io/portfolio/)
 
 ## Tools and Technologies
 
@@ -6,7 +7,3 @@
 * Vite
 * Pinia
 * Tailwind CSS
-
-## Demo
-
-You can view live demo [here](https://kate-tang.github.io/portfolio/#/).

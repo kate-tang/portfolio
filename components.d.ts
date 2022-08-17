@@ -16,7 +16,6 @@ declare module '@vue/runtime-core' {
     IconCiExternalLink: typeof import('~icons/ci/external-link')['default']
     IconCodiconMail: typeof import('~icons/codicon/mail')['default']
     IconEpArrowUpBold: typeof import('~icons/ep/arrow-up-bold')['default']
-    IconFa6BrandsSass: typeof import('~icons/fa6-brands/sass')['default']
     IconIconoirGithub: typeof import('~icons/iconoir/github')['default']
     IconJamLinkedin: typeof import('~icons/jam/linkedin')['default']
     IconLineMdMoonFilled: typeof import('~icons/line-md/moon-filled')['default']
