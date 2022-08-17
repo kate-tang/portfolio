@@ -4,13 +4,13 @@ import { ref } from 'vue'
 export const useStore = defineStore('store', () => {
   // dark mode
   const isDarkMode = ref<boolean>(false)
-  function toggleDarkMode() {
+  function toggleDarkMode(): void {
     isDarkMode.value = !isDarkMode.value
   }
-  function turnOnDarkMode() {
+  function turnOnDarkMode(): void {
     isDarkMode.value = true
   }
-  function turnOffDarkMode() {
+  function turnOffDarkMode(): void {
     isDarkMode.value = false
   }
 

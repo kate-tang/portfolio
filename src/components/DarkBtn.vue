@@ -3,17 +3,17 @@ import { useStore } from '../store'
 
 const store = useStore()
 
-function enableDarkMode(){
+function enableDarkMode(): void {
   store.turnOnDarkMode()
   document.body.classList.add('dark')
   localStorage.setItem('darkmode', 'enable')
 }
-function disableDarkMode(){
+function disableDarkMode(): void {
   store.turnOffDarkMode()
   document.body.classList.remove('dark')
   localStorage.setItem('darkmode', 'disable')
 }
-(function(){
+(function(): void {
   const dark = localStorage.getItem('darkmode')
   
   if (dark === 'enable'){
