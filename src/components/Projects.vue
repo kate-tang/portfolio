@@ -61,7 +61,7 @@ const projects: project[] = [
 <template>
   <section>
     <h2 class="section-title">Projects</h2>
-    <ul class="section-content sm:text-white text-black">
+    <ul class="section-content sm:text-white sm:dark:text-white text-black dark:text-white">
       <li v-for="project in projects" :key="project.id" class="relative sm:mb-28 mb-[20vw] rounded sm:overflow-hidden group">
         <a :href="project.demo" target="_blank">
           <div class="sm:absolute static sm:top-0 sm:left-0 w-full sm:h-full flex flex-col justify-center items-center sm:mb-0 mb-4 lg:px-20 sm:px-16 px-6 z-10 sm:bg-black/50 bg-transparent group-hover:md:bg-black/70">
